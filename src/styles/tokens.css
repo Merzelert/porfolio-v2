@@ -1,0 +1,29 @@
+:root {
+  /* Palette — based on the original portfolio (#1f2937, #ecf0f3, #5651e5 → #709dff) plus cool neighbors */
+  --c-indigo: #5651e5;
+  --c-periwinkle: #709dff;
+  --c-sky: #a5c4ff;
+  --c-lavender: #c7d2fe;
+  --c-deep: #312e81;
+  --c-slate: #1f2937;
+  --c-slate-700: #374151;
+  --c-night: #111827;
+  --c-steel: #d1d5db;
+  --c-mist: #ecf0f3;
+  --c-paper: #f8fafc;
+
+  /* The original button gradient */
+  --g-brand: linear-gradient(160deg, var(--c-indigo) 0%, var(--c-periwinkle) 100%);
+
+  /* Type */
+  --f-sans: 'Bricolage Grotesque Variable', 'Helvetica Neue', Arial, sans-serif;
+  --f-serif: 'Instrument Serif', Georgia, serif;
+  --f-mono: 'Cutive Mono', ui-monospace, Menlo, monospace;
+
+  /* Layout */
+  --gutter: clamp(16px, 2.5vw, 32px);
+  --hud-h: 100px;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
